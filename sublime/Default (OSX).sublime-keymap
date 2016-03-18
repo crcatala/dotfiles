@@ -1,0 +1,37 @@
+[
+    { "keys": ["ctrl+a"], "command": "move_to", "args": {"to": "bol", "extend": false} },
+    { "keys": ["ctrl+r"], "command": "move_to", "args": {"to": "eol", "extend": false} },
+    { "keys": ["ctrl+n"], "command": "move", "args": {"by": "lines", "forward": true, "amount": 1.0} },
+    { "keys": ["ctrl+e"], "command": "move", "args": {"by": "lines", "forward": false, "amount": 1.0} },
+    { "keys": ["ctrl+shift+l"], "command": "move", "args": {"by": "pages", "forward": true} },
+    { "keys": ["ctrl+shift+u"], "command": "move", "args": {"by": "pages", "forward": false} },
+    { "keys": ["ctrl+h"], "command": "move", "args": {"by": "characters", "forward": false} },
+    { "keys": ["ctrl+i"], "command": "move", "args": {"by": "characters", "forward": true} },
+    { "keys": ["ctrl+j"], "command": "move", "args": {"by": "words", "forward": false} },
+    { "keys": ["ctrl+y"], "command": "move", "args": {"by": "word_ends", "forward": true} },
+  { "keys": ["super+t"], "command": "find_under_expand" },
+    { "keys": ["ctrl+t"], "command": "find_under_expand" },
+    { "keys": ["super+]"], "command": "find_under_expand" },
+    { "keys": ["ctrl+]"], "command": "find_under_expand" },
+    { "keys": ["super+["], "command": "soft_undo" },
+    { "keys": ["ctrl+["], "command": "soft_undo" },
+    { "keys": ["super+shift+d"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+    { "keys": ["ctrl+shift+d"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+    { "keys": ["super+shift+delete"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+  { "keys": ["super+shift+m"], "command": "expand_selection", "args": {"to": "brackets"} },
+    { "keys": ["super+shift+up"], "command": "swap_line_up" },
+    { "keys": ["super+shift+down"], "command": "swap_line_down" },
+    { "keys": ["super+d"], "command": "duplicate_line" },
+    {
+        "keys": ["super+ctrl+h"],
+        "command": "repl_open",
+        "args": {
+            "type": "subprocess",
+            "encoding": "utf8",
+            "cmd": ["sbcl", "-i"],
+            "cwd": "$file_path",
+            "external_id": "lisp",
+            "syntax": "Packages/Lisp/Lisp.tmLanguage"
+        }
+    }
+]
