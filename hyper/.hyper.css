@@ -1,0 +1,19 @@
+/* #window */
+.term_fit {
+  border-left: 1px solid transparent;
+  /*border-right: 1px solid transparent;*/
+}
+
+.term_active {
+  /*background-color: #35454e;*/
+  /*border: 1px solid #fff;*/
+  /*border: 0 1px 0 1px solid #fff;*/
+  /*border: 1px solid #fff;*/
+  border-left: 1px solid #fff;
+  /*border-right: 1px solid #fff;*/
+}
+
+/* #terminal */
+.cursor-node {
+  border-color: #fff;
+}
