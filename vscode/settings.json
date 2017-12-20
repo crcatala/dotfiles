@@ -1,0 +1,25 @@
+{
+    "atomKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": true,
+    "workbench.colorTheme": "Oceanic Plus",
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "'Operator Mono', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 16,
+    "window.zoomLevel": 0,
+    "editor.fontWeight": "normal",
+    "workbench.activityBar.visible": false,
+    "terminal.integrated.fontFamily": "'Operator Mono', Menlo, Monaco, 'Courier New', monospace",
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.confirmOnExit": true,
+    "workbench.panel.location": "bottom",
+    "editor.minimap.enabled": false,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "html",
+        "vue"
+    ],
+    "editor.formatOnSave": true
+}
